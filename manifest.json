@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Virtual Numpad",
+  "version": "1.0.0",
+  "description": "Allows user to have a number pad on their screen",
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab"
+  ]
+}
